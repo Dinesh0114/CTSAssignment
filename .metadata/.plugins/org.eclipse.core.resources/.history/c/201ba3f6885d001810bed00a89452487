@@ -1,0 +1,63 @@
+package com.cts.serviceimpl;
+
+import java.util.List;
+
+import com.cts.bean.Department;
+import com.cts.service1.DepartmentService;
+
+public class DepartmentServiceimpl implements DepartmentService{
+
+	@Override
+	public boolean add(Department dept) {
+		if(get(dept.getId())==null)
+{
+	return false;
+	}
+	return true;	
+	}
+	@Override
+	public boolean update(Department dept) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+
+	@Override
+	public boolean delete(int id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Department get(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Department> get() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void display(Department dept) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	@Override
+	public boolean update(Department dept) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

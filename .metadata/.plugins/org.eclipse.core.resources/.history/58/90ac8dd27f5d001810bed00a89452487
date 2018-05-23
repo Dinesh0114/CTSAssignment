@@ -1,0 +1,16 @@
+package com.cts.service.test;
+
+import com.cts.bean.EmployeeDetails;
+import com.cts.serviceimpl.EmployeeDetailsServiceimpl;
+
+public class EmployeeDetailServiceimplTest {
+public static void main(String[] args) {
+	EmployeeDetailsServiceimpl test=new EmployeeDetailsServiceimpl();
+	EmployeeDetails employee1=new EmployeeDetails(101,"saro",10000);
+	EmployeeDetails employee2=new EmployeeDetails(102,"saravanan",20000);
+	test.add(employee1);
+	test.add(employee2);
+	test.delete(101);
+	
+			}
+}

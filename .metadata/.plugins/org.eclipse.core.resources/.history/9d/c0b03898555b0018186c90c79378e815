@@ -1,0 +1,10 @@
+package com.cts.testprogram;
+
+import com.cts.program.ArrayLargestNumber;
+
+public class ArraySumTest {
+public static void main(String[] args) {
+	int a[]= {80,190,30,20,81,199};
+    ArraySum arraysum=new ArraySumr);
+}
+}

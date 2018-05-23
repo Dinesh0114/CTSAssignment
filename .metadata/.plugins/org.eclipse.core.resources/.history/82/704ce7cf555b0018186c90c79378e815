@@ -1,0 +1,11 @@
+package com.cts.testprogram;
+
+import com.cts.program.ArraySum;
+
+public class ArraySumTest {
+public static void main(String[] args) {
+	int a[]= {80,190};
+    ArraySum arraysum=new ArraySum();
+    System.out.println("sum: "+(arraysum.sum(a)));
+}
+}

@@ -1,0 +1,13 @@
+package com.cts.program;
+
+public class StringReverse {
+public void string(String str1)
+{
+	char ch[]=str1.toCharArray();
+	for(int i=ch.length;i>=0;i--)
+	{
+		System.out.println(ch[i]);
+	}
+	
+}
+}

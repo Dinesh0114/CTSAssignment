@@ -1,0 +1,11 @@
+package com.cts.program;
+
+public class StringPalindrome {
+	public void string(String str)
+	{
+		char ch[]=str.toCharArray();
+		int verify=str;
+		
+	}
+
+}

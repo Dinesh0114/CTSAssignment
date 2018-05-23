@@ -1,0 +1,11 @@
+package com.cts.employeetest;
+
+import com.cts.employee.Employee;
+
+public class EmployeeTest {
+public static void main(String[] args) {
+	Employee employee=new Employee();
+	employee.setId(101);
+	System.out.print(employee.name);
+}
+}

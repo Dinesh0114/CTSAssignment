@@ -1,0 +1,17 @@
+package com.cts.program;
+
+public class StringPalindrome {
+	public void string(String str1)
+	{
+
+    StringBuffer str2=new StringBuffer();
+    for(int i=str1.length()-1;i>0;i--)
+    {
+    	str2.append(str1.substring(i));
+    	
+    }
+		
+    System.out.print(str1 + str2);
+	}
+
+}

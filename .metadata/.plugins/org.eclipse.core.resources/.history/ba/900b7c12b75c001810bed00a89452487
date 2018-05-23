@@ -1,0 +1,5 @@
+package com.cts.employee;
+
+public class Address {
+@OnetoOne
+}

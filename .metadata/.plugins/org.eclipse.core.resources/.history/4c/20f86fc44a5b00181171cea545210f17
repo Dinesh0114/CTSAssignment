@@ -1,0 +1,22 @@
+package com.cts.program;
+
+import java.lang.reflect.Array;
+
+public class ArrayLargestNumber {
+	public Array[] large(int a[])
+	{
+		int max=a[0],i,index=0;
+		int size=a.length;
+		for(i=0;i<size;i++)
+		{
+			if(max<a[i]) {
+				max=a[i];
+				index=i;
+				
+			}
+		}
+		
+		
+	}
+
+}

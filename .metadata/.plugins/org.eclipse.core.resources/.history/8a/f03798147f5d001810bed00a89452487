@@ -1,0 +1,7 @@
+package com.cts.service.test;
+
+public class EmployeeDetailServiceimplTest {
+public static void main(String[] args) {
+	EmployeeDetailsServiceimpl test=new EmployeeDetailsServiceimpl();
+}
+}
